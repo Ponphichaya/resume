@@ -1,6 +1,6 @@
 .my-img-bg{
   /* The image used */
-  background-image: url("../images/Home.jpg");
+  background-image: url("../images/bg-home.jpg");
 
   /* Full height */
   height: 100%;
@@ -11,6 +11,12 @@
   background-size: cover;
 }
 
+.bg-image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
 
 
 .my-aboutandcontact-color{
